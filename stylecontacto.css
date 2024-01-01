@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+        body{
+            font-family: Poppins, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header{
+            display: flex;
+            align-items: center;
+            background-color: #EFF3F4;
+            padding: 130px 0 0 0 ;
+        }
+        .menu{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo{
+            font-size: 25px;
+            color: green;
+            text-transform: uppercase;
+            font-weight: 800;
+        
+        
+        }
+        .menu .navbar ul li{
+            position: relative;
+            float: left;
+        }
+        
+        .menu .navbar ul li a{
+            font-size: 18px;
+            padding: 20px;
+            color: #111419 ;
+            display: block;
+        }
+        
+        .menu .navbar ul li a:hover{
+            color: #9BCE21;
+        }
+        
+        #menu{
+            display: none;
+        }
+        .menu-icono{
+            width: 25px;
+        }
+        .menu label{
+            cursor: pointer;
+            display: none;
+        }
+
+        .contact{
+            min-height: 20vh;
+            padding: 80px;
+        }
+        form{
+            
+            padding: 30px 55px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        
+        }
+
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        h2{
+            color: #283629;
+            font-size: 35px;
+        }
+
+        label{
+            color: #283629;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        input, textarea{
+            padding: 17px 25px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            background-color: #EDFFF0;
+            border: 2px solid #F0FAF1;
+            outline: none;
+
+        }
+        input::placeholder, textarea::placeholder{
+            color: #b5cab6;
+        }
+        
+
+        .btn{
+            font-size: 16px;
+            color: #ffffff;
+            border: 0;
+            border-radius: 25px;
+            background-color: #9BCE21;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: #13462E;
+        }
+        .footer{
+            background-color: #13462E;
+            padding: 100px 0;
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .link h3{
+            color: #FFFFFF;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .link a{
+            color: #AEAFAF;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .link a:hover{
+            color: #9BCE21;
+        }
+        
+        @media(max-width:991px){
+            .menu{
+                padding: 20px;
+            }
+        
+            .menu label{
+                display: initial;
+            }
+        
+            .menu .navbar{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #9BCE21;
+                display: none;
+            }
+        
+            .menu .navbar ul li {
+                width: 100%;
+             }
+             #menu:checked ~ .navbar{
+                display: initial;
+             }
+             .logo{
+                display: none;
+             }
+            .menu .navbar ul li a:hover{
+                color: #FFFFFF;
+             }
+
+            body{
+                padding: 30px;
+            }
+            form{
+                padding: 50px 30px;
+                width: 100%;
+            }
+
+            input{
+                padding: 15px;
+            }
+           
+        
+        }
