@@ -350,11 +350,11 @@ h2{
      .header-img{
         display: none;
      }
-     .oferts{
-        padding: 30px;
+     .marcas{
+        padding: 20px;
         flex-direction: column;
      }
-     .ofert-1{
+     .marcas-1{
         margin-bottom: 15px;
      }
      .products{
