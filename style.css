@@ -150,13 +150,13 @@ span{
     height: 550px;
 }
 
-.oferts{
+.marcas{
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.ofert-1{
+.marcas-1{
     flex-basis: calc(33.3% - 20px);
     padding: 10px 15px;
     display: flex;
@@ -173,17 +173,17 @@ span{
     background-color: #9BCE21;
 }
 
-.ofert-txt{
+.marcas-txt{
     flex-basis: 50%;
 }
-.ofert-txt h3{
+.marcas-txt h3{
     color: #FFFFFF;
     font-size: 20px;
 }
-.ofert-txt a{
+.marcas-txt a{
     color: #FFFFFF;
 }
-.ofert-img{
+.marcas-img{
     flex-basis: 50%;
 }
 
@@ -369,5 +369,6 @@ h2{
      }
 
 }
+
 
 
